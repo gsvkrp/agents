@@ -8,10 +8,12 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh && \
     mv /root/.local/bin/uv /usr/local/bin/uv && \
     mv /root/.local/bin/uvx /usr/local/bin/uvx
 
-# Pre-install useful VS Code extensions so candidates don't wait
+# Pre-install useful VS Code extensions so candidates don't wait.
+# Note: Pylance is Microsoft-proprietary and not on Open VSX, so it cannot
+# be installed in code-server. We use the open-source Python extension +
+# Ruff (which provides linting + completions on its own).
 RUN code-server \
     --install-extension ms-python.python \
-    --install-extension ms-python.vscode-pylance \
     --install-extension charliermarsh.ruff
 
 # Workspace lives at /workspace (cloned at build time, see Makefile)
