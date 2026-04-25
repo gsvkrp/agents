@@ -1,0 +1,104 @@
+"""Tool functions for the worked-example agent.
+
+ONE tool (`list_amenities`) is fully implemented as a reference. The rest are
+stubs - implement the ones you need.
+
+The functions are plain Python so they're trivial to unit-test. At the bottom
+of this file we wrap them with `function_tool(...)` from the OpenAI Agents SDK
+to produce the `AGENT_TOOLS` list that `agent.py` passes to `Agent(tools=...)`.
+The Agents SDK derives each tool's JSON schema from the type hints and the
+docstring, so:
+
+  - Use precise type hints (`Optional[int]`, `bool`, `Literal[...]`).
+  - Write a one-line docstring describing what the tool does and when to call it.
+  - Include parameter descriptions in the docstring if the name isn't obvious.
+
+If you switch to a different framework, ignore this file - each framework has
+its own idiomatic way to declare tools (LangChain `@tool`, LangGraph
+`ToolNode`, CrewAI `BaseTool`, ...).
+"""
+from __future__ import annotations
+
+from typing import Any, Dict, List, Optional
+
+from agents import function_tool
+
+from frameworks._shared.data_io import load_json  # also: append_json_item, write_json
+
+
+# ---------- Worked example ----------------------------------------------------
+
+def list_amenities() -> List[str]:
+    """List the amenities available at the property."""
+    return load_json("property_info.json").get("amenities", [])
+
+
+# ---------- Stubs - implement what you need -----------------------------------
+
+def get_open_balance(resident_id: str) -> Dict[str, Any]:
+    """Return the open balance for a resident (use residents.json)."""
+    raise NotImplementedError
+
+
+def get_next_month_rent(resident_id: str) -> Dict[str, Any]:
+    """Return next month's rent for a resident."""
+    raise NotImplementedError
+
+
+def list_rent_payments(resident_id: str, year: Optional[int] = None) -> List[Dict[str, Any]]:
+    """List a resident's rent payments, optionally filtered by year."""
+    raise NotImplementedError
+
+
+def get_office_hours(day: Optional[str] = None) -> Dict[str, Any]:
+    """Return office hours, optionally for a specific weekday like 'saturday'."""
+    raise NotImplementedError
+
+
+def list_community_rules() -> List[str]:
+    """List the community rules."""
+    raise NotImplementedError
+
+
+def list_upcoming_events(month: Optional[int] = None) -> List[Dict[str, Any]]:
+    """List upcoming events, optionally filtered by month (1-12)."""
+    raise NotImplementedError
+
+
+def list_event_signups(resident_id: str) -> List[Dict[str, Any]]:
+    """List a resident's event signups."""
+    raise NotImplementedError
+
+
+def sign_up_for_event(resident_id: str, event_id: str, guests: int = 0) -> Dict[str, Any]:
+    """Append a new signup to event_signups.json and return it."""
+    raise NotImplementedError
+
+
+def list_maintenance_requests(resident_id: str) -> List[Dict[str, Any]]:
+    """List maintenance requests filed by a resident."""
+    raise NotImplementedError
+
+
+def create_maintenance_request(
+    resident_id: str, description: str, priority: str = "Medium"
+) -> Dict[str, Any]:
+    """Append a new maintenance request and return it."""
+    raise NotImplementedError
+
+
+def list_packages(resident_id: str, only_available: bool = True) -> List[Dict[str, Any]]:
+    """List packages for a resident; by default only those still available."""
+    raise NotImplementedError
+
+
+# ---------- Tools registered with the Agent ----------------------------------
+# Wrap each plain Python function above with `function_tool(...)` and add it
+# here. The Agents SDK uses your type hints + docstring to build the schema.
+
+AGENT_TOOLS = [
+    function_tool(list_amenities),
+    # TODO: add more wrapped tools, e.g.
+    #   function_tool(get_open_balance),
+    #   function_tool(sign_up_for_event),
+]

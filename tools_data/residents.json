@@ -1,0 +1,2446 @@
+[
+  {
+    "resident_id": "R001",
+    "name": "Aarav Mehta",
+    "unit": "A-101",
+    "open_balance": 82646,
+    "next_month_rent": 17500,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-01-15",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R001-01-14165",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-03",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R001-02-40495",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-04-12",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R001-04-95181",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-15",
+        "amount": 8750,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R001-05-68878",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-07-12",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R001-07-30926",
+        "period": "2025-07"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R001-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-07",
+        "amount": 960,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-01",
+        "reference_id": "CHG-R001-01-MAINTENANCEFEE",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-20",
+        "amount": 78,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-01",
+        "reference_id": "CHG-R001-01-LATEFEE",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R001-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R001-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-05",
+        "amount": 91,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-03",
+        "reference_id": "CHG-R001-03-LATEFEE",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-07",
+        "amount": 710,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-03",
+        "reference_id": "CHG-R001-03-MAINTENANCEFEE",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R001-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R001-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-15",
+        "amount": 927,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-05",
+        "reference_id": "CHG-R001-05-MAINTENANCEFEE",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-20",
+        "amount": 90,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-05",
+        "reference_id": "CHG-R001-05-LATEFEE",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R001-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-06-10",
+        "amount": 514,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-06",
+        "reference_id": "CHG-R001-06-PARKING",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R001-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R001-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R001-09-RENT",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-07",
+        "amount": 319,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-09",
+        "reference_id": "CHG-R001-09-UTILITYELECTRICITY",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-10",
+        "amount": 207,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-09",
+        "reference_id": "CHG-R001-09-UTILITYWATER",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R002",
+    "name": "Ananya Sharma",
+    "unit": "A-102",
+    "open_balance": 130458,
+    "next_month_rent": 23000,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-03-03",
+        "amount": 23000,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R002-03-22676",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-07",
+        "amount": 23000,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R002-04-15695",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-07-15",
+        "amount": 11500,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R002-07-59615",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-09-03",
+        "amount": 23000,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R002-09-85674",
+        "period": "2025-09"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R002-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R002-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R002-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-10",
+        "amount": 1085,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-03",
+        "reference_id": "CHG-R002-03-MAINTENANCEFEE",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R002-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-12",
+        "amount": 977,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-04",
+        "reference_id": "CHG-R002-04-MAINTENANCEFEE",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-15",
+        "amount": 251,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-04",
+        "reference_id": "CHG-R002-04-UTILITYWATER",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R002-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R002-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-06-20",
+        "amount": 95,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-06",
+        "reference_id": "CHG-R002-06-LATEFEE",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-06-20",
+        "amount": 237,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-06",
+        "reference_id": "CHG-R002-06-UTILITYWATER",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R002-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R002-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-25",
+        "amount": 1313,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-08",
+        "reference_id": "CHG-R002-08-MAINTENANCEFEE",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R002-09-RENT",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R003",
+    "name": "Rohit Verma",
+    "unit": "A-201",
+    "open_balance": 123485,
+    "next_month_rent": 20000,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-01-05",
+        "amount": 20000,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R003-01-46434",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-04-10",
+        "amount": 20000,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R003-04-58520",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-07",
+        "amount": 20000,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R003-05-99593",
+        "period": "2025-05"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 20000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R003-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-25",
+        "amount": 196,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-01",
+        "reference_id": "CHG-R003-01-UTILITYWATER",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 20000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R003-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-02-07",
+        "amount": 569,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-02",
+        "reference_id": "CHG-R003-02-PARKING",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 20000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R003-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-07",
+        "amount": 1014,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-03",
+        "reference_id": "CHG-R003-03-MAINTENANCEFEE",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-07",
+        "amount": 209,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-03",
+        "reference_id": "CHG-R003-03-UTILITYWATER",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 20000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R003-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 20000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R003-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-20",
+        "amount": 363,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-05",
+        "reference_id": "CHG-R003-05-UTILITYELECTRICITY",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 20000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R003-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-06-05",
+        "amount": 664,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-06",
+        "reference_id": "CHG-R003-06-PARKING",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-06-25",
+        "amount": 107,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-06",
+        "reference_id": "CHG-R003-06-LATEFEE",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 20000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R003-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 20000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R003-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 20000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R003-09-RENT",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-07",
+        "amount": 363,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-09",
+        "reference_id": "CHG-R003-09-UTILITYELECTRICITY",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R004",
+    "name": "Priya Nair",
+    "unit": "A-202",
+    "open_balance": 84670,
+    "next_month_rent": 17500,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-03-15",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R004-03-17331",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-05",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R004-04-62581",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-07-07",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R004-07-84341",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-15",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R004-08-95909",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-10",
+        "amount": 8750,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R004-09-28726",
+        "period": "2025-09"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R004-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-12",
+        "amount": 186,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-01",
+        "reference_id": "CHG-R004-01-UTILITYWATER",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-20",
+        "amount": 606,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-01",
+        "reference_id": "CHG-R004-01-PARKING",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R004-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-02-07",
+        "amount": 476,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-02",
+        "reference_id": "CHG-R004-02-PARKING",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R004-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-12",
+        "amount": 96,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-03",
+        "reference_id": "CHG-R004-03-LATEFEE",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-12",
+        "amount": 203,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-03",
+        "reference_id": "CHG-R004-03-UTILITYWATER",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R004-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-07",
+        "amount": 629,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-04",
+        "reference_id": "CHG-R004-04-PARKING",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R004-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-20",
+        "amount": 738,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-05",
+        "reference_id": "CHG-R004-05-MAINTENANCEFEE",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-25",
+        "amount": 386,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-05",
+        "reference_id": "CHG-R004-05-UTILITYELECTRICITY",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R004-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R004-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-07-15",
+        "amount": 1049,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-07",
+        "reference_id": "CHG-R004-07-MAINTENANCEFEE",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-07-15",
+        "amount": 334,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-07",
+        "reference_id": "CHG-R004-07-UTILITYELECTRICITY",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R004-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-05",
+        "amount": 100,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-08",
+        "reference_id": "CHG-R004-08-LATEFEE",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R004-09-RENT",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-10",
+        "amount": 969,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-09",
+        "reference_id": "CHG-R004-09-MAINTENANCEFEE",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-12",
+        "amount": 148,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-09",
+        "reference_id": "CHG-R004-09-UTILITYWATER",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R005",
+    "name": "Kabir Singh",
+    "unit": "B-101",
+    "open_balance": 140393,
+    "next_month_rent": 21000,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-05-12",
+        "amount": 10500,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R005-05-57447",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-05",
+        "amount": 21000,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R005-06-21915",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-09-03",
+        "amount": 21000,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R005-09-92240",
+        "period": "2025-09"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R005-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R005-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-02-20",
+        "amount": 1241,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-02",
+        "reference_id": "CHG-R005-02-MAINTENANCEFEE",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R005-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-15",
+        "amount": 116,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-03",
+        "reference_id": "CHG-R005-03-LATEFEE",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R005-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R005-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-25",
+        "amount": 545,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-05",
+        "reference_id": "CHG-R005-05-PARKING",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-25",
+        "amount": 181,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-05",
+        "reference_id": "CHG-R005-05-UTILITYWATER",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R005-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-06-05",
+        "amount": 1045,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-06",
+        "reference_id": "CHG-R005-06-MAINTENANCEFEE",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-06-25",
+        "amount": 246,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-06",
+        "reference_id": "CHG-R005-06-UTILITYWATER",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R005-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-07-15",
+        "amount": 519,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-07",
+        "reference_id": "CHG-R005-07-PARKING",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R005-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R005-09-RENT",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R006",
+    "name": "Ishita Rao",
+    "unit": "B-102",
+    "open_balance": 87623,
+    "next_month_rent": 18000,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-02-12",
+        "amount": 18000,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R006-02-99166",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-04-15",
+        "amount": 18000,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R006-04-94012",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-07",
+        "amount": 18000,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R006-05-66985",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-07-05",
+        "amount": 9000,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R006-07-44522",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-12",
+        "amount": 18000,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R006-08-91959",
+        "period": "2025-08"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 18000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R006-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-07",
+        "amount": 996,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-01",
+        "reference_id": "CHG-R006-01-MAINTENANCEFEE",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-15",
+        "amount": 429,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-01",
+        "reference_id": "CHG-R006-01-UTILITYELECTRICITY",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 18000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R006-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-02-07",
+        "amount": 563,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-02",
+        "reference_id": "CHG-R006-02-PARKING",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-02-25",
+        "amount": 326,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-02",
+        "reference_id": "CHG-R006-02-UTILITYELECTRICITY",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 18000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R006-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-12",
+        "amount": 191,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-03",
+        "reference_id": "CHG-R006-03-UTILITYWATER",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-20",
+        "amount": 518,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-03",
+        "reference_id": "CHG-R006-03-PARKING",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 18000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R006-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-05",
+        "amount": 324,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-04",
+        "reference_id": "CHG-R006-04-UTILITYELECTRICITY",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-15",
+        "amount": 842,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-04",
+        "reference_id": "CHG-R006-04-MAINTENANCEFEE",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 18000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R006-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-07",
+        "amount": 95,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-05",
+        "reference_id": "CHG-R006-05-LATEFEE",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-20",
+        "amount": 434,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-05",
+        "reference_id": "CHG-R006-05-PARKING",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 18000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R006-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 18000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R006-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 18000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R006-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-10",
+        "amount": 905,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-08",
+        "reference_id": "CHG-R006-08-MAINTENANCEFEE",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 18000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R006-09-RENT",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-15",
+        "amount": 634,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-09",
+        "reference_id": "CHG-R006-09-PARKING",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-20",
+        "amount": 366,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-09",
+        "reference_id": "CHG-R006-09-UTILITYELECTRICITY",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R007",
+    "name": "Vivaan Kapoor",
+    "unit": "B-201",
+    "open_balance": 87878,
+    "next_month_rent": 21000,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-02-12",
+        "amount": 21000,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R007-02-74042",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-03",
+        "amount": 21000,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R007-03-50306",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-05",
+        "amount": 21000,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R007-04-84364",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-03",
+        "amount": 21000,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R007-05-19071",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-08-12",
+        "amount": 21000,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R007-08-96474",
+        "period": "2025-08"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R007-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-05",
+        "amount": 607,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-01",
+        "reference_id": "CHG-R007-01-PARKING",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-25",
+        "amount": 468,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-01",
+        "reference_id": "CHG-R007-01-UTILITYELECTRICITY",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R007-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R007-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-05",
+        "amount": 241,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-03",
+        "reference_id": "CHG-R007-03-UTILITYWATER",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-12",
+        "amount": 407,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-03",
+        "reference_id": "CHG-R007-03-UTILITYELECTRICITY",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R007-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-05",
+        "amount": 118,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-04",
+        "reference_id": "CHG-R007-04-LATEFEE",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-10",
+        "amount": 1009,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-04",
+        "reference_id": "CHG-R007-04-MAINTENANCEFEE",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R007-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R007-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R007-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R007-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-10",
+        "amount": 407,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-08",
+        "reference_id": "CHG-R007-08-UTILITYELECTRICITY",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-25",
+        "amount": 621,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-08",
+        "reference_id": "CHG-R007-08-PARKING",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 21000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R007-09-RENT",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R008",
+    "name": "Diya Iyer",
+    "unit": "B-202",
+    "open_balance": 150095,
+    "next_month_rent": 24000,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-02-12",
+        "amount": 24000,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R008-02-62296",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-05-15",
+        "amount": 24000,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R008-05-77839",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-07-10",
+        "amount": 24000,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R008-07-39451",
+        "period": "2025-07"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R008-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-20",
+        "amount": 101,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-01",
+        "reference_id": "CHG-R008-01-LATEFEE",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R008-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-02-12",
+        "amount": 107,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-02",
+        "reference_id": "CHG-R008-02-LATEFEE",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-02-25",
+        "amount": 1405,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-02",
+        "reference_id": "CHG-R008-02-MAINTENANCEFEE",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R008-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-12",
+        "amount": 425,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-03",
+        "reference_id": "CHG-R008-03-UTILITYELECTRICITY",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R008-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R008-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R008-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-06-10",
+        "amount": 1433,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-06",
+        "reference_id": "CHG-R008-06-MAINTENANCEFEE",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R008-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-07-20",
+        "amount": 233,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-07",
+        "reference_id": "CHG-R008-07-UTILITYWATER",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R008-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-07",
+        "amount": 420,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-08",
+        "reference_id": "CHG-R008-08-UTILITYELECTRICITY",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-15",
+        "amount": 855,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-08",
+        "reference_id": "CHG-R008-08-PARKING",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R008-09-RENT",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-05",
+        "amount": 132,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-09",
+        "reference_id": "CHG-R008-09-LATEFEE",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-12",
+        "amount": 984,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-09",
+        "reference_id": "CHG-R008-09-MAINTENANCEFEE",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R009",
+    "name": "Arjun Patel",
+    "unit": "C-101",
+    "open_balance": 109030,
+    "next_month_rent": 17500,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-04-05",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R009-04-92719",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-03",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R009-05-14117",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-09-07",
+        "amount": 17500,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R009-09-46500",
+        "period": "2025-09"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R009-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-07",
+        "amount": 437,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-01",
+        "reference_id": "CHG-R009-01-PARKING",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-15",
+        "amount": 72,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-01",
+        "reference_id": "CHG-R009-01-LATEFEE",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R009-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R009-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-15",
+        "amount": 841,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-03",
+        "reference_id": "CHG-R009-03-MAINTENANCEFEE",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-15",
+        "amount": 472,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-03",
+        "reference_id": "CHG-R009-03-PARKING",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R009-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R009-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-10",
+        "amount": 353,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-05",
+        "reference_id": "CHG-R009-05-UTILITYELECTRICITY",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-15",
+        "amount": 930,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-05",
+        "reference_id": "CHG-R009-05-MAINTENANCEFEE",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R009-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R009-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-07-07",
+        "amount": 159,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-07",
+        "reference_id": "CHG-R009-07-UTILITYWATER",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-07-10",
+        "amount": 561,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-07",
+        "reference_id": "CHG-R009-07-PARKING",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R009-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-05",
+        "amount": 205,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-08",
+        "reference_id": "CHG-R009-08-UTILITYWATER",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 17500,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R009-09-RENT",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R010",
+    "name": "Sara Khan",
+    "unit": "C-102",
+    "open_balance": 100907,
+    "next_month_rent": 24000,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-02-05",
+        "amount": 24000,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R010-02-96374",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-10",
+        "amount": 24000,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R010-03-63883",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-10",
+        "amount": 24000,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R010-04-17944",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-06-10",
+        "amount": 24000,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R010-06-42591",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-08-05",
+        "amount": 24000,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R010-08-28373",
+        "period": "2025-08"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R010-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-05",
+        "amount": 144,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-01",
+        "reference_id": "CHG-R010-01-LATEFEE",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R010-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R010-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-07",
+        "amount": 277,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-03",
+        "reference_id": "CHG-R010-03-UTILITYWATER",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-03-10",
+        "amount": 614,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-03",
+        "reference_id": "CHG-R010-03-PARKING",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R010-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-25",
+        "amount": 207,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-04",
+        "reference_id": "CHG-R010-04-UTILITYWATER",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R010-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-15",
+        "amount": 256,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-05",
+        "reference_id": "CHG-R010-05-UTILITYWATER",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-05-20",
+        "amount": 1104,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-05",
+        "reference_id": "CHG-R010-05-MAINTENANCEFEE",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R010-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R010-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R010-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-20",
+        "amount": 1387,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-08",
+        "reference_id": "CHG-R010-08-MAINTENANCEFEE",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 24000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R010-09-RENT",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-07",
+        "amount": 657,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-09",
+        "reference_id": "CHG-R010-09-PARKING",
+        "period": "2025-09"
+      },
+      {
+        "date": "2025-09-07",
+        "amount": 261,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-09",
+        "reference_id": "CHG-R010-09-UTILITYWATER",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R011",
+    "name": "Kunal Desai",
+    "unit": "C-201",
+    "open_balance": 141727,
+    "next_month_rent": 23000,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-01-10",
+        "amount": 23000,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R011-01-95477",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-04-12",
+        "amount": 23000,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R011-04-40982",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-07-05",
+        "amount": 11500,
+        "currency": "INR",
+        "method": "Cash",
+        "confirmation_id": "PAY-R011-07-73092",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-05",
+        "amount": 11500,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R011-08-31579",
+        "period": "2025-08"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R011-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-20",
+        "amount": 377,
+        "currency": "INR",
+        "category": "Utility - Electricity",
+        "description": "Utility - Electricity for 2025-01",
+        "reference_id": "CHG-R011-01-UTILITYELECTRICITY",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-01-25",
+        "amount": 207,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-01",
+        "reference_id": "CHG-R011-01-UTILITYWATER",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R011-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-02-10",
+        "amount": 188,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-02",
+        "reference_id": "CHG-R011-02-UTILITYWATER",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R011-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R011-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-15",
+        "amount": 747,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-04",
+        "reference_id": "CHG-R011-04-PARKING",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-15",
+        "amount": 252,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-04",
+        "reference_id": "CHG-R011-04-UTILITYWATER",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R011-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R011-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R011-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R011-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-12",
+        "amount": 1174,
+        "currency": "INR",
+        "category": "Maintenance Fee",
+        "description": "Maintenance Fee for 2025-08",
+        "reference_id": "CHG-R011-08-MAINTENANCEFEE",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-08-15",
+        "amount": 782,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-08",
+        "reference_id": "CHG-R011-08-PARKING",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R011-09-RENT",
+        "period": "2025-09"
+      }
+    ]
+  },
+  {
+    "resident_id": "R012",
+    "name": "Meera Gupta",
+    "unit": "C-202",
+    "open_balance": 140060,
+    "next_month_rent": 23000,
+    "currency": "INR",
+    "rent_transactions_2025": [
+      {
+        "date": "2025-03-15",
+        "amount": 11500,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R012-03-34890",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-07",
+        "amount": 23000,
+        "currency": "INR",
+        "method": "UPI",
+        "confirmation_id": "PAY-R012-04-85914",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-15",
+        "amount": 23000,
+        "currency": "INR",
+        "method": "NetBanking",
+        "confirmation_id": "PAY-R012-05-17492",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-08-03",
+        "amount": 11500,
+        "currency": "INR",
+        "method": "Card",
+        "confirmation_id": "PAY-R012-08-17455",
+        "period": "2025-08"
+      }
+    ],
+    "ledger_charges_2025": [
+      {
+        "date": "2025-01-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-01",
+        "reference_id": "CHG-R012-01-RENT",
+        "period": "2025-01"
+      },
+      {
+        "date": "2025-02-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-02",
+        "reference_id": "CHG-R012-02-RENT",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-02-25",
+        "amount": 267,
+        "currency": "INR",
+        "category": "Utility - Water",
+        "description": "Utility - Water for 2025-02",
+        "reference_id": "CHG-R012-02-UTILITYWATER",
+        "period": "2025-02"
+      },
+      {
+        "date": "2025-03-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-03",
+        "reference_id": "CHG-R012-03-RENT",
+        "period": "2025-03"
+      },
+      {
+        "date": "2025-04-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-04",
+        "reference_id": "CHG-R012-04-RENT",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-04-20",
+        "amount": 740,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-04",
+        "reference_id": "CHG-R012-04-PARKING",
+        "period": "2025-04"
+      },
+      {
+        "date": "2025-05-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-05",
+        "reference_id": "CHG-R012-05-RENT",
+        "period": "2025-05"
+      },
+      {
+        "date": "2025-06-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-06",
+        "reference_id": "CHG-R012-06-RENT",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-06-12",
+        "amount": 133,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-06",
+        "reference_id": "CHG-R012-06-LATEFEE",
+        "period": "2025-06"
+      },
+      {
+        "date": "2025-07-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-07",
+        "reference_id": "CHG-R012-07-RENT",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-07-12",
+        "amount": 129,
+        "currency": "INR",
+        "category": "Late Fee",
+        "description": "Late Fee for 2025-07",
+        "reference_id": "CHG-R012-07-LATEFEE",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-07-25",
+        "amount": 791,
+        "currency": "INR",
+        "category": "Parking",
+        "description": "Parking for 2025-07",
+        "reference_id": "CHG-R012-07-PARKING",
+        "period": "2025-07"
+      },
+      {
+        "date": "2025-08-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-08",
+        "reference_id": "CHG-R012-08-RENT",
+        "period": "2025-08"
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 23000,
+        "currency": "INR",
+        "category": "Rent",
+        "description": "Rent charge for 2025-09",
+        "reference_id": "CHG-R012-09-RENT",
+        "period": "2025-09"
+      }
+    ]
+  }
+]

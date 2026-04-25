@@ -1,0 +1,162 @@
+[
+  {
+    "signup_id": "EVS-0001",
+    "resident_id": "R005",
+    "event_id": "E011",
+    "status": "Waitlisted",
+    "guests": 1,
+    "rsvp_at": "2025-10-11T18:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0002",
+    "resident_id": "R003",
+    "event_id": "E004",
+    "status": "Waitlisted",
+    "guests": 0,
+    "rsvp_at": "2025-10-22T18:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0003",
+    "resident_id": "R010",
+    "event_id": "E005",
+    "status": "Waitlisted",
+    "guests": 1,
+    "rsvp_at": "2025-09-18T13:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0004",
+    "resident_id": "R004",
+    "event_id": "E007",
+    "status": "Cancelled",
+    "guests": 2,
+    "rsvp_at": "2025-10-20T15:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0005",
+    "resident_id": "R008",
+    "event_id": "E011",
+    "status": "Registered",
+    "guests": 0,
+    "rsvp_at": "2025-10-17T09:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0006",
+    "resident_id": "R005",
+    "event_id": "E009",
+    "status": "Cancelled",
+    "guests": 0,
+    "rsvp_at": "2025-10-21T11:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0007",
+    "resident_id": "R011",
+    "event_id": "E005",
+    "status": "Registered",
+    "guests": 0,
+    "rsvp_at": "2025-09-26T09:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0008",
+    "resident_id": "R001",
+    "event_id": "E004",
+    "status": "Waitlisted",
+    "guests": 2,
+    "rsvp_at": "2025-09-20T15:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0009",
+    "resident_id": "R011",
+    "event_id": "E010",
+    "status": "Registered",
+    "guests": 2,
+    "rsvp_at": "2025-10-23T15:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0010",
+    "resident_id": "R004",
+    "event_id": "E003",
+    "status": "Cancelled",
+    "guests": 0,
+    "rsvp_at": "2025-09-23T15:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0011",
+    "resident_id": "R004",
+    "event_id": "E003",
+    "status": "Cancelled",
+    "guests": 0,
+    "rsvp_at": "2025-10-17T18:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0012",
+    "resident_id": "R004",
+    "event_id": "E002",
+    "status": "Waitlisted",
+    "guests": 3,
+    "rsvp_at": "2025-10-05T18:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0013",
+    "resident_id": "R010",
+    "event_id": "E006",
+    "status": "Waitlisted",
+    "guests": 3,
+    "rsvp_at": "2025-10-20T15:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0014",
+    "resident_id": "R003",
+    "event_id": "E012",
+    "status": "Waitlisted",
+    "guests": 0,
+    "rsvp_at": "2025-10-15T13:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0015",
+    "resident_id": "R009",
+    "event_id": "E008",
+    "status": "Cancelled",
+    "guests": 2,
+    "rsvp_at": "2025-10-08T09:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0016",
+    "resident_id": "R012",
+    "event_id": "E005",
+    "status": "Registered",
+    "guests": 1,
+    "rsvp_at": "2025-10-09T18:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0017",
+    "resident_id": "R002",
+    "event_id": "E003",
+    "status": "Registered",
+    "guests": 0,
+    "rsvp_at": "2025-10-08T11:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0018",
+    "resident_id": "R002",
+    "event_id": "E007",
+    "status": "Waitlisted",
+    "guests": 2,
+    "rsvp_at": "2025-10-11T09:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0019",
+    "resident_id": "R004",
+    "event_id": "E007",
+    "status": "Waitlisted",
+    "guests": 3,
+    "rsvp_at": "2025-09-25T15:00:00+05:30"
+  },
+  {
+    "signup_id": "EVS-0020",
+    "resident_id": "R008",
+    "event_id": "E001",
+    "status": "Waitlisted",
+    "guests": 2,
+    "rsvp_at": "2025-10-10T18:00:00+05:30"
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "property_id": "P-1001",
+  "name": "Lakeview Heights",
+  "address": {
+    "line1": "123 Lakeside Rd",
+    "locality": "Madhapur",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "postal_code": "500081",
+    "country": "IN"
+  },
+  "office_hours": {
+    "monday": "09:00-18:00",
+    "tuesday": "09:00-18:00",
+    "wednesday": "09:00-18:00",
+    "thursday": "09:00-18:00",
+    "friday": "09:00-18:00",
+    "saturday": "10:00-14:00",
+    "sunday": "Closed"
+  },
+  "contact": {
+    "leasing_office": "+91-40-5555-1234",
+    "maintenance": "+91-40-5555-5678",
+    "email": "hello@lakeviewheights.example"
+  },
+  "amenities": [
+    "Gym",
+    "Swimming Pool",
+    "Clubhouse",
+    "Children's Play Area",
+    "Pet Park",
+    "Co-working Lounge"
+  ],
+  "community_rules": [
+    "Quiet hours: 10 PM - 7 AM",
+    "No littering in common areas",
+    "Pets must be leashed in hallways"
+  ],
+  "upcoming_events": [
+    {
+      "event_id": "E001",
+      "title": "Yoga in the Park",
+      "start_at": "2025-10-05T10:00:00+05:30",
+      "end_at": "2025-10-05T19:00:00+05:30",
+      "location": "Rooftop",
+      "capacity": 50,
+      "fee": 0,
+      "description": "Yoga in the Park at Lakeview Heights."
+    },
+    {
+      "event_id": "E002",
+      "title": "Diwali Celebration Night",
+      "start_at": "2025-10-12T18:00:00+05:30",
+      "end_at": "2025-10-12T20:00:00+05:30",
+      "location": "Poolside",
+      "capacity": 50,
+      "fee": 0,
+      "description": "Diwali Celebration Night at Lakeview Heights."
+    },
+    {
+      "event_id": "E003",
+      "title": "Community Potluck",
+      "start_at": "2025-10-19T18:00:00+05:30",
+      "end_at": "2025-10-19T21:00:00+05:30",
+      "location": "Rooftop",
+      "capacity": 50,
+      "fee": 0,
+      "description": "Community Potluck at Lakeview Heights."
+    },
+    {
+      "event_id": "E004",
+      "title": "Open Mic Evening",
+      "start_at": "2025-10-26T09:00:00+05:30",
+      "end_at": "2025-10-26T20:00:00+05:30",
+      "location": "Poolside",
+      "capacity": 60,
+      "fee": 100,
+      "description": "Open Mic Evening at Lakeview Heights."
+    },
+    {
+      "event_id": "E005",
+      "title": "Farmers' Market",
+      "start_at": "2025-11-02T09:00:00+05:30",
+      "end_at": "2025-11-02T21:00:00+05:30",
+      "location": "Rooftop",
+      "capacity": 100,
+      "fee": 150,
+      "description": "Farmers' Market at Lakeview Heights."
+    },
+    {
+      "event_id": "E006",
+      "title": "Movie Under the Stars",
+      "start_at": "2025-11-09T19:00:00+05:30",
+      "end_at": "2025-11-09T21:00:00+05:30",
+      "location": "Clubhouse",
+      "capacity": 40,
+      "fee": 100,
+      "description": "Movie Under the Stars at Lakeview Heights."
+    },
+    {
+      "event_id": "E007",
+      "title": "Blood Donation Camp",
+      "start_at": "2025-11-16T10:00:00+05:30",
+      "end_at": "2025-11-16T21:00:00+05:30",
+      "location": "Clubhouse",
+      "capacity": 40,
+      "fee": 200,
+      "description": "Blood Donation Camp at Lakeview Heights."
+    },
+    {
+      "event_id": "E008",
+      "title": "Board Games Night",
+      "start_at": "2025-11-23T18:00:00+05:30",
+      "end_at": "2025-11-23T21:00:00+05:30",
+      "location": "Rooftop",
+      "capacity": 80,
+      "fee": 200,
+      "description": "Board Games Night at Lakeview Heights."
+    },
+    {
+      "event_id": "E009",
+      "title": "Sustainability Workshop",
+      "start_at": "2025-11-30T19:00:00+05:30",
+      "end_at": "2025-11-30T20:00:00+05:30",
+      "location": "Poolside",
+      "capacity": 100,
+      "fee": 0,
+      "description": "Sustainability Workshop at Lakeview Heights."
+    },
+    {
+      "event_id": "E010",
+      "title": "Winter Carnival",
+      "start_at": "2025-12-07T17:00:00+05:30",
+      "end_at": "2025-12-07T20:00:00+05:30",
+      "location": "Poolside",
+      "capacity": 40,
+      "fee": 200,
+      "description": "Winter Carnival at Lakeview Heights."
+    },
+    {
+      "event_id": "E011",
+      "title": "Karaoke Night",
+      "start_at": "2025-12-14T19:00:00+05:30",
+      "end_at": "2025-12-14T20:00:00+05:30",
+      "location": "Rooftop",
+      "capacity": 80,
+      "fee": 0,
+      "description": "Karaoke Night at Lakeview Heights."
+    },
+    {
+      "event_id": "E012",
+      "title": "Holiday Charity Drive",
+      "start_at": "2025-12-21T17:00:00+05:30",
+      "end_at": "2025-12-21T21:00:00+05:30",
+      "location": "Clubhouse",
+      "capacity": 60,
+      "fee": 200,
+      "description": "Holiday Charity Drive at Lakeview Heights."
+    }
+  ]
+}

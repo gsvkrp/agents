@@ -1,0 +1,42 @@
+[project]
+name = "agent-exercise"
+version = "0.1.0"
+description = "Resident assistant coding exercise — four agentic-framework skeletons."
+requires-python = ">=3.11"
+dependencies = [
+    # Shared
+    "python-dotenv>=1.0.1",
+    "rich>=13.7.1",
+    "typer>=0.12.3",
+    "pydantic>=2.7.0",
+
+    # OpenAI
+    "openai>=2.0.0",
+
+    # OpenAI Agents SDK — `from agents import Agent, Runner, function_tool`
+    "openai-agents>=0.14.0",
+
+    # LangChain v1 — `langchain.agents.create_agent`, `@tool`
+    "langchain>=1.0.0",
+    "langchain-core>=1.0.0",
+    "langchain-openai>=1.0.0",
+
+    # LangGraph 1.x — `StateGraph`, `ToolNode`, `tools_condition`
+    "langgraph>=1.0.0",
+
+    # CrewAI — `Agent`, `Task`, `Crew`, `crewai.tools.BaseTool`
+    "crewai>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["."]
+
+[tool.uv]
+package = false

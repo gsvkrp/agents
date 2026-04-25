@@ -1,0 +1,134 @@
+[
+  {
+    "package_id": "PKG-0001",
+    "resident_id": "R001",
+    "carrier": "DHL",
+    "tracking_number": "DHL-7166868574",
+    "received_at": "2025-10-18T12:00:00+05:30",
+    "status": "Collected",
+    "collected_at": "2025-10-19T16:00:00+05:30",
+    "pickup_code": "130434",
+    "notes": "Leave at front desk"
+  },
+  {
+    "package_id": "PKG-0002",
+    "resident_id": "R002",
+    "carrier": "Bluedart",
+    "tracking_number": "BLU-8904911624",
+    "received_at": "2025-10-22T17:00:00+05:30",
+    "status": "Available",
+    "collected_at": null,
+    "pickup_code": "233827",
+    "notes": null
+  },
+  {
+    "package_id": "PKG-0003",
+    "resident_id": "R003",
+    "carrier": "Delhivery",
+    "tracking_number": "DEL-8055556030",
+    "received_at": "2025-10-19T10:00:00+05:30",
+    "status": "Available",
+    "collected_at": null,
+    "pickup_code": "242291",
+    "notes": "Leave at front desk"
+  },
+  {
+    "package_id": "PKG-0004",
+    "resident_id": "R004",
+    "carrier": "Flipkart",
+    "tracking_number": "FLI-6698759353",
+    "received_at": "2025-08-09T17:00:00+05:30",
+    "status": "Collected",
+    "collected_at": "2025-08-10T18:00:00+05:30",
+    "pickup_code": "898207",
+    "notes": "Leave at front desk"
+  },
+  {
+    "package_id": "PKG-0005",
+    "resident_id": "R005",
+    "carrier": "Bluedart",
+    "tracking_number": "BLU-2503068227",
+    "received_at": "2025-09-09T10:00:00+05:30",
+    "status": "Collected",
+    "collected_at": "2025-09-09T11:00:00+05:30",
+    "pickup_code": "781725",
+    "notes": null
+  },
+  {
+    "package_id": "PKG-0006",
+    "resident_id": "R006",
+    "carrier": "DHL",
+    "tracking_number": "DHL-9677466102",
+    "received_at": "2025-08-25T10:00:00+05:30",
+    "status": "Available",
+    "collected_at": null,
+    "pickup_code": "259784",
+    "notes": "Fragile"
+  },
+  {
+    "package_id": "PKG-0007",
+    "resident_id": "R007",
+    "carrier": "Flipkart",
+    "tracking_number": "FLI-2584392711",
+    "received_at": "2025-09-22T10:00:00+05:30",
+    "status": "Available",
+    "collected_at": null,
+    "pickup_code": "735324",
+    "notes": null
+  },
+  {
+    "package_id": "PKG-0008",
+    "resident_id": "R008",
+    "carrier": "Flipkart",
+    "tracking_number": "FLI-1851819913",
+    "received_at": "2025-09-04T10:00:00+05:30",
+    "status": "Collected",
+    "collected_at": "2025-09-07T18:00:00+05:30",
+    "pickup_code": "720859",
+    "notes": "Fragile"
+  },
+  {
+    "package_id": "PKG-0009",
+    "resident_id": "R009",
+    "carrier": "Amazon",
+    "tracking_number": "AMA-5471357886",
+    "received_at": "2025-10-25T15:00:00+05:30",
+    "status": "Available",
+    "collected_at": null,
+    "pickup_code": "658623",
+    "notes": "Leave at front desk"
+  },
+  {
+    "package_id": "PKG-0010",
+    "resident_id": "R010",
+    "carrier": "DHL",
+    "tracking_number": "DHL-8943866829",
+    "received_at": "2025-09-03T15:00:00+05:30",
+    "status": "Available",
+    "collected_at": null,
+    "pickup_code": "962276",
+    "notes": "Leave at front desk"
+  },
+  {
+    "package_id": "PKG-0011",
+    "resident_id": "R011",
+    "carrier": "Amazon",
+    "tracking_number": "AMA-2870403050",
+    "received_at": "2025-09-12T17:00:00+05:30",
+    "status": "Available",
+    "collected_at": null,
+    "pickup_code": "869440",
+    "notes": "Keep upright"
+  },
+  {
+    "package_id": "PKG-0012",
+    "resident_id": "R012",
+    "carrier": "FedEx",
+    "tracking_number": "FED-5014170428",
+    "received_at": "2025-10-25T17:00:00+05:30",
+    "status": "Collected",
+    "collected_at": "2025-10-28T16:00:00+05:30",
+    "pickup_code": "392477",
+    "notes": "Leave at front desk"
+  }
+]
