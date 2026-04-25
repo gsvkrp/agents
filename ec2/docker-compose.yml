@@ -1,0 +1,53 @@
+services:
+  code-server:
+    build: .
+    container_name: code-server
+    restart: unless-stopped
+    environment:
+      # Required: code-server login password (share with candidate).
+      PASSWORD: ${CODE_SERVER_PASSWORD:?set CODE_SERVER_PASSWORD in .env}
+
+      # Required: real OpenAI key (candidate sees the var name in their
+      # terminal; rotate after the interview if that's a concern).
+      OPENAI_API_KEY: ${OPENAI_API_KEY:?set OPENAI_API_KEY in .env}
+      OPENAI_MODEL:   ${OPENAI_MODEL:-gpt-5.1}
+
+      # Tracing off across all frameworks (matches the devcontainer).
+      LANGCHAIN_TRACING_V2: "false"
+      LANGSMITH_TRACING: "false"
+      CREWAI_TRACING_ENABLED: "false"
+      OTEL_SDK_DISABLED: "true"
+    volumes:
+      # Candidate code lives on the host at /workspace (cloned by
+      # aws-setup.sh deploy from REPO_URL). Bind-mount so edits persist
+      # across container restarts.
+      - /workspace:/workspace
+      # Hide operator-only / sensitive paths from the candidate by masking
+      # them with empty anonymous volumes inside the container. The host
+      # files are untouched.
+      - /workspace/ec2          # ec2/  -> empty inside container
+      - /workspace/.git         # .git/ -> empty inside container
+    expose:
+      - "8080"
+    # No host port published; Caddy is the only thing reaching it.
+
+  caddy:
+    image: caddy:2
+    container_name: caddy
+    restart: unless-stopped
+    environment:
+      INTERVIEW_DOMAIN: ${INTERVIEW_DOMAIN:?set INTERVIEW_DOMAIN in .env}
+      ACME_EMAIL: ${ACME_EMAIL:-admin@example.com}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - code-server
+
+volumes:
+  caddy_data:
+  caddy_config:

@@ -1,0 +1,9 @@
+# Caddy auto-handles TLS via Let's Encrypt. INTERVIEW_DOMAIN is set in the
+# environment (the deploy script defaults to <dashed-ip>.sslip.io).
+{
+    email {$ACME_EMAIL}
+}
+
+{$INTERVIEW_DOMAIN} {
+    reverse_proxy code-server:8080
+}
