@@ -29,7 +29,7 @@ except Exception:
 ROOT_DIR = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT_DIR / "tools_data"
 
-MODEL = os.getenv("OPENAI_MODEL", "gpt-5.1")
+MODEL = os.getenv("OPENAI_MODEL") or "gpt-5.1"
 
 
 def data_path(name: str) -> Path:
@@ -37,7 +37,7 @@ def data_path(name: str) -> Path:
 
 
 def resident_id() -> str:
-    return os.getenv("RESIDENT_ID", "R001")
+    return os.getenv("RESIDENT_ID") or "R001"
 
 
 def system_prompt() -> str:
