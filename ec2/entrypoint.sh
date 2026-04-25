@@ -12,6 +12,23 @@ if [ ! -d .venv ]; then
     uv sync
 fi
 
+# Hide operator-only and noisy paths from the candidate's file explorer.
+# Lives in /workspace/.vscode/ which docker-compose masks on the host so
+# this never leaks back into the git repo.
+mkdir -p .vscode
+cat > .vscode/settings.json <<'JSON'
+{
+  "files.exclude": {
+    "ec2": true,
+    ".devcontainer": true,
+    ".env.example": true,
+    ".venv": true,
+    "uv.lock": true,
+    ".vscode": true
+  }
+}
+JSON
+
 # PASSWORD comes from compose/env.
 exec code-server \
     --bind-addr 0.0.0.0:8080 \

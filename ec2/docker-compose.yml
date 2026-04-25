@@ -27,6 +27,9 @@ services:
       # files are untouched.
       - /workspace/ec2          # ec2/  -> empty inside container
       - /workspace/.git         # .git/ -> empty inside container
+      # entrypoint.sh writes a candidate-only files.exclude config here;
+      # mask it from the host so it doesn't drift into the git repo.
+      - /workspace/.vscode
     expose:
       - "8080"
     # No host port published; Caddy is the only thing reaching it.
