@@ -23,6 +23,7 @@ run:
 	uv run python -m frameworks.$(FRAMEWORK).main --prompt "$(PROMPT)"
 
 repl:
+	clear
 	uv run python -m frameworks.$(FRAMEWORK).main
 
 clean:
