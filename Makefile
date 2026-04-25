@@ -12,6 +12,8 @@ help:
 	@echo "make repl                 Start the interactive REPL"
 	@echo ""
 	@echo "Override the framework with FRAMEWORK=langchain | langgraph | crewai"
+	@echo ""
+	@echo "Operator-only (interview admins): make aws-deploy ENV=alpha — see Makefile."
 
 install sync:
 	uv sync
@@ -29,3 +31,20 @@ repl:
 clean:
 	find . -type d -name __pycache__ -exec rm -rf {} +
 	rm -rf .pytest_cache .venv
+
+# ---------------------------------------------------------------------------
+# Operator-only (interview administrators). Forwards `make aws-<x>` here to
+# `make <x>` inside ec2/. Candidates never run these. See ec2/Makefile.
+#   make aws-login  ENV=alpha
+#   make aws-deploy ENV=alpha OPENAI_API_KEY=sk-...
+# ---------------------------------------------------------------------------
+
+.PHONY: aws-%
+aws-%:
+	@$(MAKE) -C ec2 $* $(if $(ENV),ENV=$(ENV))
+
+# make aws-login
+# make aws-deploy
+
+# make aws-stop
+# make aws-down
