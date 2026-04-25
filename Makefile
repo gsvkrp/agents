@@ -43,8 +43,10 @@ clean:
 aws-%:
 	@$(MAKE) -C ec2 $* $(if $(ENV),ENV=$(ENV))
 
+# git push latest code
 # make aws-login
 # make aws-deploy
 
 # make aws-stop
 # make aws-down
+# make aws-nuke
